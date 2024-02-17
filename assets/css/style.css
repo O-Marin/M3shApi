@@ -1,0 +1,53 @@
+#nav {
+    background-color: rgb(87, 78, 78);
+    padding: 0.5em;
+    display: flex;
+    gap: 1em;
+}
+
+#nav h2{
+    color:white;
+}
+#banner img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#search div, #search form{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#search form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#search form input{
+ padding: 0.5em;
+ margin: 0.5em 0;
+ 
+}
+
+#search-btn {
+    border-radius: 5px;
+    background-color: rgb(57, 103, 230);
+    border: none;
+    color: whitesmoke;
+    padding: 1em;
+    width: 15%;
+    font-size: 1em;
+}
+
